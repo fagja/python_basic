@@ -12,9 +12,16 @@ members = ["Bob", "Tom", "Ken"]
 # print("Name: " + bob_info[0] + " " + bob_info[1]
 # + ", Age: " + str(bob_info[2]))
 
-odd_numbers = [1, 3, 5, 7, 9]
-
 # A6
+"""
 for i in range(10):
     if i % 2 == 1:
         print(i)
+"""
+
+# A7 for を使って even_numbers のそれぞれの値を2倍した値を出力してください
+
+even_numbers = [2, 4, 6, 8]
+
+for content in range(4):
+    print(even_numbers[content] * 2)
