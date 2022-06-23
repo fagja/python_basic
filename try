@@ -1,0 +1,12 @@
+text_p = """this is not a 
+very long
+string."""
+ 
+#確認しましょう。
+print(text_p)
+text_p = """this is not a 
+very long
+string."""
+ 
+#確認しましょう。
+print(text_p)
