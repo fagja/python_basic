@@ -24,6 +24,7 @@
         print(n * s, end="")
     print() """
 
+"""
 for after_asterisk in range(1, 10):
     argument1 = 1 * after_asterisk
     argument2 = 2 * after_asterisk
@@ -46,3 +47,8 @@ for after_asterisk in range(1, 10):
         argument8,
         argument9,
     )
+"""
+for n in range(1, 10):
+    for s in range(1, 10):
+        print(n * s, end=" ")
+    print()
