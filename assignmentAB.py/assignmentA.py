@@ -1,3 +1,5 @@
+import random
+
 users = ["Bob", "Tom", "Ken"]
 int_numbers = [1, 2, 3, 4, 5]
 bob_info = ["Bob", "Dylan", 79]
@@ -60,9 +62,9 @@ print(bob_info["age"])
 
 # A10
 
-import random
 
 def dice():
     return random.randint(1, 6)
+
 
 print(dice())
